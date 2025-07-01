@@ -1,0 +1,48 @@
+function filterByPrice() {
+  let r = document.getElementById("nice").value;
+  let c = document.getElementsByClassName("one");
+
+  if (r !== null && r !== "") {
+    for (let i = 0; i < c.length; i++) {
+      const d = c[i].getElementsByClassName("hero")[0];
+      let f = d.getElementsByTagName("h3")[1];
+      let clean = f.innerText.replace(/[^0-9]/g, "");
+      let price = parseInt(clean);
+
+      if (r === "low" && price <= 1000) {
+        c[i].style.display = "block";
+      } else if (r === "high" && price > 1000) {
+        c[i].style.display = "block";
+      } else {
+        c[i].style.display = "none";
+      }
+    }
+  } else {
+    for (let i = 0; i < c.length; i++) {
+      c[i].style.display = "block";
+    }
+  }
+}
+
+
+
+
+
+function filterw()
+{let i;
+  let a=document.getElementById("six");
+let b=a.value.toUpperCase();
+let c=document.getElementsByClassName("one");
+for(i=0;i<c.length;i++)
+{
+  const d=c[i].getElementsByClassName("hero")[0];
+  let f=d.getElementsByTagName("h3")[0];
+  let g=f.innerText.toUpperCase();
+  if(g.includes(b))
+  {
+    c[i].style.display="block";
+  }
+  else{
+    c[i].style.display="none";
+  }
+}}

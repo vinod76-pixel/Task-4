@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Trends Men Wear</title>
+
+  <link rel="stylesheet" href="mm.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+
+</head>
+
+
+
+<body>
+
+  <div class="logo">
+
+    <h1 id="rr">Trends</h1>
+
+    <div class="links">
+
+      <a href="#">Home</a>
+
+      <a href="#">Shop</a>
+
+      <h4 id="na">
+
+        filter
+
+      </h4>
+
+<select name="price" id="nice" onchange="filterByPrice()">
+
+<option>low</option>
+
+<option>high
+
+</option></select>
+
+      <input type="search" id="six" placeholder="Enter search" onkeyup="filter()">
+
+      <div class="font">
+
+        <I class="fa-solid fa-cart-shopping"></I>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <h1 id="nine">Trends Men Wear</h1>
+
+
+
+  <div class="navbar">
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="photo-1606311698062-21c4f57cb27f.avif" />
+
+        <h3>📚 Item: Book Set</h3>
+
+        <h3>💰 Price: ₹500</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="c33bb859-28b0-48cb-a10c-f875059fd86a_1.d6d7413a3f0147ff6abfebc0a824b8ac.webp" />
+
+        <h3>👔 Item: Vest Set</h3>
+
+        <h3>💰 Price: ₹1,200</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="OIP (2).jpg" />
+
+        <h3>👕 Item: Jacket</h3>
+
+        <h3>💰 Price: ₹1,999</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="27c23377f492aa98853490744d70feae.png" />
+
+        <h3>🛍 Item: Casual Shirt</h3>
+
+        <h3>💰 Price: ₹799</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-solid fa-star"></I><I class="fa-regular fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="OIP (1).jpg" />
+
+        <h3>👟 Item: Sports Shoes</h3>
+
+        <h3>💰 Price: ₹999</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-regular fa-star"></I><I class="fa-regular fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="OIP (4).jpg" />
+
+        <h3>🧢 Item: Black Cap</h3>
+
+        <h3>💰 Price: ₹299</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-solid fa-star"></I><I class="fa-regular fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="one">
+
+      <div class="hero">
+
+        <img src="OIP (3).jpg" />
+
+        <h3>🧥 Item: Hoodie</h3>
+
+        <h3>💰 Price: ₹1,499</h3>
+
+        <div class="rating">
+
+          <I class="fa-solid fa-star"></I><I class="fa-solid fa-star"></I>
+
+          <I class="fa-regular fa-star"></I><I class="fa-regular fa-star"></I>
+
+          <I class="fa-regular fa-star"></I>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <script src="mmm.js"></script>
+
+</body>
+
+</html>
